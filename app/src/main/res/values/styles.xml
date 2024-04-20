@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="dayStyle">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#e9e9e9</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style id="c" name="numb">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:background">#e9e9e9</item>
+    </style>
+
+    <dimen name="text_width">40dp</dimen>
+    <dimen name="text_height">130dp</dimen>
+    <dimen name="text_size">10dp</dimen>
+    <style name="Class">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_width">42dp</item>
+        <item name="android:layout_height">130dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_rowSpan">2</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="MyModelSetting" parent="Theme.AppCompat">
+        <!--背景色,此处的背景色请一定要设置为透明度背景色-->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!--window Is Translucent 窗口是半透明的-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--window No Title窗口无标题-->
+<!--        <item name="android:windowNoTitle">false</item>-->
+        <!--弹出动画-->
+<!--        <item name="android:windowAnimationStyle">@null</item>-->
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+</resources>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources></resources>-->
